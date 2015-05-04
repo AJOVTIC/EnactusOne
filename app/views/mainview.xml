@@ -1,0 +1,18 @@
+<!--Alonso-->
+
+<Alloy>
+	<Window id="mainviewXML">
+		<!--the id for the widget is given a different name to avoid ambiguity.-->
+		<Require type="widget" src="SlidingMenu" id="slidingMainView" />
+		<View id="mainView">
+			
+			<!--This is the blue status bar at the top of the mainView screen-->
+			<View id="mainTopBar">
+				
+				<View id="menuButton"/><!--This is the button for the menuView-->			
+				<Label id="header">Feed</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>
+<!--Alonso-->

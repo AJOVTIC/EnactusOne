@@ -1,0 +1,67 @@
+//<!--Alonso-->
+
+//this is the tableView in the mainView.xml
+"#mainView":{
+	layout: 'vertical',
+	backgroundColor: 'white',
+},
+//This is the blue bar in the mainview.xml
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#00b100',
+	layout: 'horizontal',
+},
+//this is the picture of the button.
+"#menuButton":{
+	width: "60dp",
+	height: "60dp"
+},
+"#header" : {
+	color : '#8C000000',
+	font : {
+		fontSize : 28,
+		fontWeight : 'bold',		
+	},
+	left : '25%',
+}
+//<!--Alonso-->
+"#win" : {
+	backgroundColor: "white" //grey
+},
+"#line": {
+	backgroundColor: "black", 
+	left: "55dp",
+	top: "10dp",
+	height: Ti.UI.FILL,
+	width: "2dp",
+}
+
+//<!--Alonso-->
+
+// Bryan's code
+//this is the tableView in the mainView.xml
+"#mainView":{
+	layout: 'vertical',
+	backgroundColor: 'white',
+},
+//This is the blue bar in the mainview.xml
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#00b100',
+	layout: 'horizontal',
+},
+//this is the picture of the button.
+"#menuButton":{
+	width: "60dp",
+	height: "60dp"
+},
+"#header" : {
+	color : '#8C000000',
+	font : {
+		fontSize : 28,
+		fontWeight : 'bold',		
+	},
+	left : '25%',
+}

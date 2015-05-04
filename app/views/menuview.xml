@@ -1,0 +1,84 @@
+<!--Alonso-->
+
+<Alloy>
+	<Window id="menuviewXML">
+		
+		<Require type="widget" src="SlidingMenu" id="menuSlidingView" />
+		
+		<View id="menuView">
+			
+			<View id="menuTopBar"/><!--This is the black bar at the top of the window-->
+			
+			<!--This gives the information of the menuTable-->
+			<TableView class="menuTable" id="menuTable">
+				
+				
+				
+				<!--this is the home tab-->
+				<TableViewRow class="tableRow" id="row1">
+					<View id="rowContainer">
+												
+						<!--This adds the tab itself with a padding of 20dp between the TableViewRow and the view-->
+						<Label id="rowLabel" class="rowLabel">Home</Label>
+					</View>
+				</TableViewRow>
+				
+				
+				
+				<!--This is the projects tab-->
+				<TableViewRow class="tableRow" id="row2">
+					<View id="rowContainer">
+						
+						
+						<Label id="rowLabel" class="rowLabel">Projects</Label>
+					</View>
+				</TableViewRow>
+								
+				
+				<!--this is the calendar tab-->
+				<TableViewRow class="tableRow" id="row3">
+					<View id="rowContainer">
+						
+						
+						<Label id="rowLabel" class="rowLabel">Calendar</Label>
+					</View>
+				</TableViewRow>
+				
+				<!--this is the industry tab-->
+				<TableViewRow class="tableRow" id="row4">
+					<View id="rowContainer">
+						
+						
+						<Label id="rowLabel" class="rowLabel">Industry</Label>
+					</View>
+				</TableViewRow>
+				
+				<!--this is the contacts tab-->
+				<TableViewRow class="tableRow" id="row5">
+					<View id="rowContainer">
+						
+						
+						<Label id="rowLabel" class="rowLabel">Contacts</Label>
+					</View>
+				</TableViewRow>
+				
+				<!--This is the settings tab-->
+				<TableViewRow class="tableRow" id="row6">
+					<View id="rowContainer">
+						
+						<View id="rowGear" class="rowIcon"/><!--This adds the picture-->
+						
+						<Label id="rowLabel" class="rowLabel">Settings</Label>
+					</View>
+				</TableViewRow>
+				
+			</TableView>
+			<!--end of the tableView-->
+			
+			
+		</View>
+		
+		
+	</Window>
+</Alloy>
+<!--Alonso-->
