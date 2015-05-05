@@ -10,8 +10,8 @@ $.menuButton.add(getMenuButton({
 //Minor changes to click event. Update the menuOpen status;
 $.menuButton.addEventListener('click',function(){
 	
-	$.slidingMainView.showhidemenu();
-	$.slidingMainView.menuOpen=!$.slidingMainView.menuOpen;
+	$.slidingProjectsView.showhidemenu();
+	$.slidingProjectsView.menuOpen=!$.slidingProjectsView.menuOpen;
 }); // method is exposed by widget
 
 //This gets executed and gets the parameters from lines 5-8.
@@ -39,10 +39,10 @@ function getMenuButton(args){
 
 var menuView = Alloy.createController('menuview');
 
-$.slidingMainView.init({
+$.slidingProjectsView.init({
     
     menuview:menuView.getView(),
     mainview:$.mainView,
     duration:200,
-    parent: $.mainviewXML
+    parent: $.projects
 });
