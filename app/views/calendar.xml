@@ -2,6 +2,7 @@
 
 <Alloy>
 	<Window id="calendar">
+		<Require type="widget" src="SlidingMenu" id="slidingCalendarView" />
 		<View id="mainView">
 			
 			<!--This is the blue status bar at the top of the mainView screen-->

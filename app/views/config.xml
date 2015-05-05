@@ -2,6 +2,7 @@
 
 <Alloy>
 	<Window id="config">
+		<Require type="widget" src="SlidingMenu" id="slidingConfigView" />
 	    <View id="mainView">
 	    	
 	    	<!--This is the top bar at the menu. Color needs to change to white.-->

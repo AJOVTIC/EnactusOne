@@ -2,6 +2,7 @@
 
 <Alloy>
 	<Window id="industry">
+		<Require type="widget" src="SlidingMenu" id="slidingIndustryView" />
 		<View id="mainView">
 			
 			<!--This is the blue status bar at the top of the mainView screen-->

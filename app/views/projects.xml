@@ -1,6 +1,7 @@
 <!--Alonso-->
 <Alloy>
 	<Window id="projects">
+		<Require type="widget" src="SlidingMenu" id="slidingProjectsView" />
 		<View id="mainView">
 			
 			<!--This is the blue status bar at the top of the mainView screen-->
