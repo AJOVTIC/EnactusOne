@@ -1,0 +1,26 @@
+<!--Alonso-->
+<Alloy>
+	<Window id="projects">
+		<View id="mainView">
+			
+			<!--This is the blue status bar at the top of the mainView screen-->
+			<View id="mainTopBar">
+				
+				<View id="menuButton"/><!--This is the button for the menuView-->			
+				<Label id="header">Projects</Label>
+			</View>
+			
+			
+			
+			<!--We will put the feed view here in this section below-->
+			<TableView>
+				<!-- this area gives text to the mainView-->
+				<TableViewRow>
+					<Label>Display the Projects Here.</Label>
+				</TableViewRow>
+			</TableView>
+			
+		</View>
+	</Window>
+</Alloy>
+<!--Alonso-->

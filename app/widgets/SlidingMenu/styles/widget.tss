@@ -1,0 +1,30 @@
+//<!--Alonso-->
+
+//all of these views are behind all of the other views.
+"#menuview":{
+	backgroundColor:"white",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#mainview":{
+	backgroundColor:"white",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#mainviewheader":{
+	top: "0",
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "green"
+},
+//This changes the color and the look of the button background
+"#menubutton":{
+	left: "0",
+	borderWidth: 1,
+	borderColor: "green",
+	width: "40dp",
+	height: "40dp",
+	visible:true
+}
+
+//<!--Alonso-->

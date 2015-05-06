@@ -1,0 +1,11 @@
+<!--Alonso-->
+
+<Alloy>
+	<!--communicates with the widget.js code-->
+	<View id="drawermenuview"></View>
+	
+	<View id="drawermainview"></View>
+	
+</Alloy>
+
+<!--Alonso-->

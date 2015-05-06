@@ -1,0 +1,13 @@
+//Jack did this
+".container" : {
+	backgroundColor: "#black"
+},
+"#image" : {
+	top : 10
+},
+"#logoutBtn" : {
+	top : 450,
+	width : '70%',
+	height : '52dp',
+	color : 'black'
+}
